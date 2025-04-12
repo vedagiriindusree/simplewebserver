@@ -81,7 +81,6 @@ TOP FIVE SOFTWARE COMPANIES IN REVENUE</h1>
 </body>
 </html>
 
-"""
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
@@ -93,9 +92,10 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
-
+```
 
 ## OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/241e582c-d21f-49a7-9cfe-f7ea2ef10655)
 
 
